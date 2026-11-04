@@ -1,0 +1,29 @@
+baseURL = 'https://Joyboy-yyz.github.io/'
+languageCode = 'zh-cn'
+title = '我的技术博客'
+theme = "PaperMod"
+
+[params]
+  description = '记录LeetCode刷题、C++学习、计算机基础'
+  showToc = true
+  showCodeCopyButtons = true
+
+# 菜单
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 20
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
