@@ -1,0 +1,32 @@
+baseURL: "https://joyboy-yyz.github.io/"
+languageCode: "zh-cn"
+title: "Joyboy 的学习笔记"
+theme: "PaperMod"
+
+params:
+  showReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  homeInfoParams:
+    Title: "Hi, I'm Joyboy"
+    Content: >
+      记录 AI、编程、读书与生活。
+      今天也要进步一点点。
+
+menu:
+  main:
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
