@@ -1,6 +1,6 @@
 ---
 title: "2026-11-08 学习日志：从 Tool 到 Agent 与 MCP"
-date: 2026-11-08T21:00:00+08:00
+date: 2026-11-08T12:00:00+08:00
 draft: false
 tags: ["AI", "Tool Calling", "Agent", "MCP", "学习日志"]
 categories: ["学习笔记"]
